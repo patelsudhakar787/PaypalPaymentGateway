@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtaskname"
+        android:text="Task :"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtaskname1"
+        android:layout_marginTop="2dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvrole"
+        android:text="Role :"
+        android:textSize="17dp"
+        android:textColor="#131312"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvrole1"
+        android:layout_marginTop="2dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvstarttime"
+        android:text="StartTime"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et1hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Hour" />
+
+        <EditText
+            android:id="@+id/et1minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="Enter Minute" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvstoptime"
+        android:text="StopTime"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et2hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Hour" />
+
+        <EditText
+            android:id="@+id/et2minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="Enter Minute" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text="Status"
+        android:textColor="#1d1d1c"
+        android:textSize="17dp"
+        android:layout_marginTop="8dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerstatus"
+        android:layout_marginTop="8dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:gravity="center"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"/>
+</LinearLayout>

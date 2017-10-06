@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Designation:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your School / College Name"
+            android:id="@+id/tvSchoolName"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Company Name:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Degree"
+            android:id="@+id/tvDegree"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Location:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Field of Study"
+            android:id="@+id/tvField"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Time Period:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Your Time Period"
+            android:id="@+id/tvTimeFrom"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Your Time Period"
+            android:id="@+id/tvTimeTo"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Description"
+            android:id="@+id/tvDescription"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="4dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

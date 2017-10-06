@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Rating"
+                android:textSize="19dp"
+                android:layout_margin="5dp"
+                android:textColor="#f2b009"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="50dp"
+                    android:textColor="#0d0d0d"
+                    android:text="General:"
+                    android:textSize="8pt"
+                    android:paddingTop="10dp"/>
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingGeneral"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="50dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Finance Support:"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingFinanceSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="50dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Infrastructure Support:"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingInfrastructureSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="60dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Mentoring Support (Technical):"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingMentoringSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="50dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Business Plan Support:"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingBusinessPlanSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="50dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Marketing strategy:"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingMarketingStrategy"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="50dp"
+                    android:textColor="#0d0d0d"
+                    android:text="IT Support (Protection):"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingITSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="70dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Company Formation Support:"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingCompanyFormationSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    android:layout_width="105dp"
+                    android:layout_height="45dp"
+                    android:textColor="#0d0d0d"
+                    android:text="Techno - Legal Support:"
+                    android:textSize="8pt"
+                    />
+
+                <RatingBar
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/ratingLegalSupport"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_marginLeft="5dp"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progress_btn_next"
+                    android:text="Next"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progress_btn_close"
+                    android:text="Close"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

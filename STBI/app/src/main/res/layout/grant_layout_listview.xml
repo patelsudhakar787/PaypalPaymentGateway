@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_margin="4dp"
+        cardview:cardElevation="4dp"
+        cardview:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ideaId1"
+                android:text="ID"
+                android:textSize="17dp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ideaIdGrant"
+                android:text="Date"
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="100dp"
+                android:textColor="#5891e1"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleofidea1"
+                android:text="LIST OF GRAND AND FUNDING"
+                android:textSize="17dp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleofGrant"
+                android:text="TITLE OF IDEA"
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:textColor="#5891e1"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="95dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date1"
+                android:text="Date"
+                android:textSize="17dp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateGrant"
+                android:text="Date"
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="80dp"
+                android:textColor="#5891e1"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="120dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/status1"
+                android:text="Status"
+                android:textSize="17dp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusGrant"
+                android:text="Status"
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="65dp"
+                android:textColor="#5891e1"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="150dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/myservices1"
+                android:text="MyServices"
+                android:textSize="17dp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/myservicesGrant"
+                android:text="MyServices"
+                android:textSize="17dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:textColor="#5891e1"
+
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

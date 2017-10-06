@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.InstituteSIG.SIG_InstituteInfoFragment"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SIG_AddPrincipleDetails"
+        android:text="Add Principle Details"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department Principle"
+        android:textSize="19dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="New Principle Name:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Full Name"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="New Mobile No:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Mobile"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="New Email Id:"
+            android:textSize="8pt"
+            style="?android:textAppearanceMedium"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Email"
+            android:textSize="8pt"
+            android:layout_marginLeft="7dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

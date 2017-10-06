@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.IncubationSIG.IncubationOpportinutyMainFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:id="@+id/textviewProject"
+        android:text="Project"
+
+        android:textSize="10pt"
+        android:layout_marginLeft="20dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/textviewGrantsFunding"
+        android:text="Grants And Funding"
+        android:layout_marginLeft="20dp"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/textviewHackathon"
+        android:text="Hackathon"
+        android:pointerIcon="crosshair"
+        android:layout_marginLeft="20dp"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

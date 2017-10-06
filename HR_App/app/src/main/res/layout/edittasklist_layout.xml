@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvcname"
+        android:text="Company Name :"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvcompanyname"
+        android:layout_marginTop="2dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtaskname"
+        android:text="Task :"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtaskname1"
+        android:layout_marginTop="2dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvnote"
+        android:text="Task Note:"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtasknote"
+        android:layout_marginTop="2dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvrole"
+        android:text="Role :"
+        android:textSize="17dp"
+        android:textColor="#131312"
+        android:layout_margin="3dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvrole1"
+        android:layout_marginTop="2dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvstarttime"
+        android:text="Enter StartTime (24 Hour Format)"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hour"
+            android:textColor="#151513"
+            android:textSize="17dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerhour1"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minute"
+            android:textColor="#151513"
+            android:textSize="17dp"
+            android:layout_marginLeft="20dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerminute1"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvstoptime"
+        android:text="Enter StopTime (24 Hour Format)"
+        android:textSize="17dp"
+        android:textColor="#0e0e0e"
+        android:layout_marginTop="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hour"
+            android:textColor="#151513"
+            android:textSize="17dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerhour2"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minute"
+            android:textColor="#151513"
+            android:textSize="17dp"
+            android:layout_marginLeft="20dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerminute2"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text="Status"
+        android:textColor="#1d1d1c"
+        android:textSize="17dp"
+        android:layout_margin="3dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerstatus"
+        android:layout_marginTop="3dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:gravity="center"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"/>
+</LinearLayout>

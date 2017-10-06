@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rlard.hr.rlard008.hr_app.Activities.TimerActivity"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:id="@+id/container"
+    android:background="#FFFFFF"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearcompanies"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Company"
+            android:textColor="#151513"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnercompanies"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/edittexttask"
+            android:background="#dededa"
+            android:hint="Enter Tasks and click on button"
+            android:layout_margin="5dp"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listviewtasks"
+        android:layout_marginTop="5dp"
+        android:layout_weight="5"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|end"
+        android:layout_weight="0"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="Add"/>
+
+
+</LinearLayout>

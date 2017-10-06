@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rlard.hr.rlard008.hr_app.Fragments.RolesFragment"
+    android:background="#FFFFFF"
+    android:weightSum="5"
+    android:orientation="vertical">
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/gridviewItem"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="20dp"
+        android:numColumns="2"
+        android:scrollbars="horizontal"
+        android:verticalScrollbarPosition="right"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="5"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065857908005",
+    "project_id": "firebase-mbapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065857908005:android:1d8708561d31ebdc",
+        "android_client_info": {
+          "package_name": "rlard.hr.rlard008.hr_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065857908005-bvrrmn4juroiqs92oovegrdi9pldq219.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rlard.hr.rlard008.hr_app",
+            "certificate_hash": "6bcdd598de809741ed286c9805d2e2cdf22be3d2"
+          }
+        },
+        {
+          "client_id": "1065857908005-ar9lj7vp4098cgps4gpjtbo89n7i77hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9NiTep-jQE2BvfEkoYabY7Ol8Z8frvcw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

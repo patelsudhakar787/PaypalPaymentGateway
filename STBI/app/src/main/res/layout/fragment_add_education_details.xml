@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.Begin.AddEducationDetailsFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Education Details"
+        android:textSize="19dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add College Name"
+        android:textSize="19dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDetailsSchool"
+        android:textSize="17dp"
+        android:layout_margin="5dp"
+        android:hint="Add Your College Name"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Degree:"
+        android:textSize="19dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDetailsDegree"
+        android:textSize="17dp"
+        android:layout_margin="2dp"
+        android:hint="Add Your Degree"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Field of Study"
+        android:textSize="19dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDetailsField"
+        android:textSize="17dp"
+        android:layout_margin="5dp"
+        android:hint="Add Field of Study"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Grade"
+        android:textSize="19dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDetailsGrade"
+        android:textSize="17dp"
+        android:layout_margin="5dp"
+        android:hint="Add Grade"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Time Period"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#0d0d0d"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#0d0d0d"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addDetailsEduFrom"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:hint="Add From"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addDetailsEduTo"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:hint="Add To"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Description"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/addDetailsDesc"
+        android:textSize="17dp"
+        android:layout_marginTop="2dp"
+        android:hint="Add Description"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addDetailsEdu_btn_cancel"
+            android:text="Cancel"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addDetailsEdu_btn_save"
+            android:text="Save"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/buttonstyle"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

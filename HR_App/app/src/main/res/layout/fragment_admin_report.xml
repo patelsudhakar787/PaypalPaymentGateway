@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rlard.hr.rlard008.hr_app.Fragments.AdminWeeklyReportFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="5"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAdminEmpname"
+        android:text="Employee Name"
+        android:textSize="17dp"
+        android:textColor="#121211"
+        android:layout_margin="5dp"
+        android:layout_weight="0"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sv">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/admin_pie_chart"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:id="@+id/adminListview"
+                android:layout_weight="5"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

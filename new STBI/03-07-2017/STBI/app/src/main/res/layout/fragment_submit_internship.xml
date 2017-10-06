@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.UpgradeBusiness.SubmitInternshipFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internship Information"
+                android:textSize="19dp"
+                android:layout_margin="5dp"
+                android:textColor="#f2b009"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title of internship"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etInternTitle"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#0d0d0d" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Type"
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#0d0d0d"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="Stipend"
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#0d0d0d"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/etInternLocation"/>
+
+                <EditText
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#0d0d0d"
+                    android:id="@+id/etInternType"/>
+
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#0d0d0d"
+                    android:id="@+id/etInternStipend"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="Internship duration"
+                android:textSize="19dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="#0d0d0d"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <Spinner
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/InternDurationDay"
+                    android:textSize="19dp"/>
+
+                <Spinner
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/InternDurationMonth"
+                    android:textSize="19dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. of Openings (Number only)"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etInternOpenings"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qualification"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etInternQualification"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skills that you are looking for"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etInternSkills"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:hint="Java, Android, etc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internship Description"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/etInternDesc"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etInternStatus"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date(MM DD,YYYY)"
+                android:textSize="19dp"
+                android:layout_margin="3dp"
+                android:textColor="#0d0d0d"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etInternDate"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/intern_btn_upload"
+                    android:text="Upload"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/intern_btn_close"
+                    android:text="Close"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

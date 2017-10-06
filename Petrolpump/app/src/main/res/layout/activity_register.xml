@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.petrolpump.rlard008.petrolpump.RegisterActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearAdmin"
+                android:layout_margin="5dp"
+                >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminPhone"
+                android:hint="Enter Admin phone no."
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminId"
+                android:hint="Enter Admin username."
+                android:layout_marginTop="35dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/adminPassword"
+                android:hint="Enter Admin password."
+                android:layout_marginTop="70dp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear1"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump1"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone1"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId1"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword1"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear2"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump2"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone2"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId2"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword2"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear3"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump3"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone3"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId3"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword3"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear4"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump4"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone4"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId4"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword4"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear5"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump5"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone5"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId5"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword5"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear6"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump6"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone6"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId6"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword6"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear7"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump7"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone7"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId7"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword7"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear8"
+                android:layout_margin="5dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPump8"
+                    android:hint="Enter Pump Name."
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPhone8"
+                    android:hint="Enter Manager phone no."
+                    android:layout_marginTop="35dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrId8"
+                    android:hint="Enter Manager username."
+                    android:layout_marginTop="70dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mgrPassword8"
+                    android:hint="Enter Manager password."
+                    android:layout_marginTop="105dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textColor="#181817"
+                    android:background="#a4e6e1"
+                    android:id="@+id/btn_RegSubmit"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="#181817"
+                    android:background="#a4e6e1"
+                    android:id="@+id/btn_RegAdd"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

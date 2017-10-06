@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/final_image">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="215dp">
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnbegin"
+                android:layout_marginLeft="80dp"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnfind"
+                android:layout_marginLeft="235dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp"
+            >
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnjoinmentor"
+                android:layout_marginLeft="244dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnminstitute"
+                android:layout_marginLeft="80dp"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnupgradeskill"
+                android:layout_marginLeft="235dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnjoininvester"
+                android:layout_marginLeft="242dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp"
+            >
+            <Button
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnbookresources"
+                android:layout_marginLeft="80dp"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/btnupgrade"
+                android:layout_marginLeft="235dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+

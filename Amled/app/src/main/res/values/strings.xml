@@ -1,0 +1,6 @@
+<resources>
+    <string name="error_field_required">This field is required</string>
+    <string name="enter_a_number">Please Enter a Number</string>
+    <string name="mobile_digit">Please Enter Valid Contact</string>
+    <string name="app_name">Amled</string>
+</resources>

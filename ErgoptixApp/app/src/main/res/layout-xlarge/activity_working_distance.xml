@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prasanna.rlard008.ergoptixapp.WorkingDistanceActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="3dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/workingdistance"
+        android:id="@+id/imageViewWorking"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:text="Enter working distance in mm"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter working distance"
+            android:textSize="8pt"
+            android:id="@+id/editTextWorkingDistance"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Submit"
+        android:text="Next"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

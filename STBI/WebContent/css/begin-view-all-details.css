@@ -1,0 +1,245 @@
+.containers{
+	padding-top: 20px;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.icon-notification{
+	padding-left: 22px;
+	padding-top: 3px;
+}
+.icon-notifications{
+	padding-left: 3px;
+}
+.icon-notificationd{
+	padding-left: 30px;
+}
+.well{
+	background-color: #ffffff;
+}
+.fload_right{
+	float: right;
+}
+.float_left{
+	float: left;
+}
+.font{
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif ; 
+}
+.top{
+	padding-top: 120px;
+}
+.justify{
+				    text-align: justify;
+				    text-justify: inter-word;
+				}
+/*------------------------------------------------Navbar------------------------------------*/
+.navbar-conteiner{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+nav{
+	background-color: #ffffff;
+}
+.navs{
+	background-color: #ffffff;
+}
+.navbar{
+	height: 100px;
+}
+.navbar-nav>li>a {
+	top: 18px;
+	font-size: 16px;
+	color:black;
+}
+.navbar-brand{
+	top: 18px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #fbfbfb;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.fa-icons{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.icon-fonts{
+	font-size: 18px;
+}
+.dropdown-menus-user{
+	top: 100px;
+	width: 250px;
+	margin-right: 16px;
+}
+.dropdown-menus-user-notification{
+	top: 90px;
+	width: 350px;
+}
+.notification{
+	top:10px;
+}
+img.avatar {
+    width: 50%;
+    border-radius: 50%;
+}
+.user-headers{
+	padding: 5px;
+}
+li > a > .label {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: orange;
+}
+li > a > .badges {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: orange;
+}
+.unique {
+	position: absolute;
+    top: -20px;
+    right: 14px;
+    text-align: right;
+    font-size: 16px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: white;
+    color: black;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 10px; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 300px;
+}
+
+.text-center{
+	float: right;
+}
+/*--------------------------end navbar--------------------------------------*/
+.card{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+.idealabels{
+	font-size:23px;
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+	color: orange;
+	text-align: center;
+}
+.sentence{
+	text-align: center;
+	color: #f09c00;
+	font-size: 18px;
+	font-weight:;
+}
+.bold{
+	text-decoration: underline;
+}
+.user-idea-details{
+	padding: 10px;
+	font-size: 16px;
+	text-align: justify;
+ 	text-justify: inter-word;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px solid #ddd;
+}
+.font-color{
+	padding-top: 7px;
+}
+.panels{
+	border-width: 2px;
+}
+.name-heading{
+	font-size: 20px;
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+.name-type{
+	 font-size: 11px;
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	 color: #ff8040;
+	 padding-left: 6px;
+	 text-transform:uppercase; 
+}
+.date{
+	color: gray;
+	font-size: 12px;
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+.informations{
+	padding: 5px;
+}
+.rating-top{
+	padding-top: 5px;
+}
+/*-------------------------------------------ratign------------------------------------------*/
+	.rating{
+		  color: #a9a9a9;
+		  margin: 0;
+		  padding: 0;
+		}
+		
+		ul.rating {
+		  display: inline-block;
+		}
+		
+		.rating li {
+		  list-style-type: none;
+		  display: inline-block;
+		  padding: 1px;
+		  text-align: center;
+		  cursor: pointer;
+		}
+		
+		.rating .filled {
+		  color: #21568b;
+		}
+		
+/*--------------------------------------------------------------------------------------*/
+.tab-font-grorgia{
+	font-family: georgia;
+	font-size: 19px; 
+	text-align: center;
+	color: orange;
+	font-weight: normal;
+}
+.tab-font-verti-grorgia{
+	font-family: georgia;
+	font-size: 16px; 
+	text-align: center;
+}
+.font-heading{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	font-size: 20px;
+}
+.font-containt{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	font-size: 17px;
+}
+body{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}

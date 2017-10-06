@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.JoinAsInvestor.Investor_InterestFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/investor_AddInterest"
+        android:text="Add Area Of Interest"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

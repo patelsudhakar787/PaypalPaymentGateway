@@ -1,0 +1,217 @@
+.containers{
+	padding: 20px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.icon-notification{
+	padding-left: 22px;
+	padding-top: 3px;
+}
+.icon-notifications{
+	padding-left: 3px;
+}
+.icon-notificationd{
+	padding-left: 30px;
+}
+.inner-container{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.fload_right{
+	float: right;
+}
+.float_left{
+	float: left;
+}
+.replay-user{
+	padding-left: 100px;
+}
+.font{
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+.top{
+	padding-top: 120px;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+    color: #000000;
+}
+.panels{
+	border-top-color: white;
+	width: 100%;
+}
+.card{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+.text-replay{
+	width: 900px;
+	height: 50px;
+}
+.buttons{
+	border: none;
+	background-color: white;
+}
+/*------------------------------------------------Navbar------------------------------------*/
+.navbar-conteiner{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+nav{
+	background-color: #ffffff;
+}
+.navs{
+	background-color: #ffffff;
+}
+.navbar{
+	height: 100px;
+}
+.navbar-nav>li>a {
+	top: 18px;
+	font-size: 16px;
+	color:black;
+}
+.navbar-brand{
+	top: 18px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #fbfbfb;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.fa-icons{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.icon-fonts{
+	font-size: 18px;
+}
+.dropdown-menus-user{
+	top: 100px;
+	width: 250px;
+	margin-right: 16px;
+}
+.dropdown-menus-user-notification{
+	top: 90px;
+	width: 350px;
+}
+.notification{
+	top:10px;
+}
+img.avatar {
+    width: 50%;
+    border-radius: 50%;
+}
+.user-headers{
+	padding: 5px;
+}
+li > a > .label {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: orange;
+}
+li > a > .badges {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: orange;
+}
+.unique {
+	position: absolute;
+    top: -20px;
+    right: 14px;
+    text-align: right;
+    font-size: 16px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: white;
+    color: black;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 10px; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 300px;
+}
+.text-center{
+	float: right;
+}
+/*--------------------------end navbar--------------------------------------*/
+
+.card{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+label{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+
+.tabs-font-size{
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+.name-heading{
+	font-size: 20px;
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+.name-type{
+	 font-size: 11px;
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	 color: #ff8040;
+	 padding-left: 6px;
+	 text-transform:uppercase; 
+}
+.date{
+	color: gray;
+	font-size: 12px;
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+.informations{
+	padding: 5px;
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	font-size: 16px;
+}
+/*--------------------------------------------------------------------------------------*/
+.tab-font-grorgia{
+	font-family: georgia;
+	font-size: 19px; 
+	text-align: center;
+}
+.tab-font-verti-grorgia{
+	font-family: georgia;
+	font-size: 16px; 
+	text-align: center;
+}
+.font-heading{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	font-size: 20px;
+}
+.font-containt{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+	font-size: 16px;
+}
+body{
+	font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}

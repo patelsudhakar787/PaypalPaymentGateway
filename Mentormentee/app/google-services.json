@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "849012528129",
+    "firebase_url": "https://schdulemeeting.firebaseio.com",
+    "project_id": "schdulemeeting",
+    "storage_bucket": "schdulemeeting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849012528129:android:6623d3a5c2ffa882",
+        "android_client_info": {
+          "package_name": "com.example.sudhakar.mentormentee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849012528129-49ngf0b12v19hei2aa68m35mbbt45ff1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf2iXIP6KeU_RN9kArduVj-DFyO7U3uo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

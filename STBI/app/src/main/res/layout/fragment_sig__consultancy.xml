@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.ManageSIG.SIG_ConsultancyFragment"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SIG_AddConsultancyDetails"
+        android:text="Add Consultancy Details"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultancy Record Details"
+        android:textSize="19dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#0d0d0d"
+        android:layout_gravity="left"
+        android:textStyle="bold"/>
+
+</LinearLayout>

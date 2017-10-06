@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.tubelighttestingrack.activities.EnergymeterActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card"
+        android:layout_margin="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:text="Indicators"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rel1"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvinitial"
+                    android:text="Power Supply Ready"
+                    android:textSize="10pt"
+                    android:textStyle="italic"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/text1"
+                    />
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/radioinitial"
+                    android:layout_toRightOf="@+id/text1"
+                    android:layout_marginLeft="280dp"
+                    android:background="@drawable/btncircular"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rel2"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvstart"
+                    android:textSize="10pt"
+                    android:textStyle="italic"
+                    android:text="Start Cycle"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/radiostart"
+                    android:layout_toRightOf="@+id/text2"
+                    android:layout_marginLeft="280dp"
+                    android:background="@drawable/btncircular"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rel3"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvstop"
+                    android:textSize="10pt"
+                    android:textStyle="italic"
+                    android:text="Stop Cycle"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/radiostop"
+                    android:layout_toRightOf="@+id/text3"
+                    android:layout_marginLeft="280dp"
+                    android:background="@drawable/btncircular"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

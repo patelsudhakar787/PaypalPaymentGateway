@@ -1,0 +1,366 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.Begin.SubmitNewIdeasFragment"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/new_idea_container"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title of your Idea / Inovation / Product / Solution"
+                android:textSize="19dp"
+                android:layout_margin="10dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etIdeasTitle"
+                android:background="#e1e1de"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter TEN keywords closely related to your idea"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTenkeywords"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who are the key users of your Product / Solution"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etKeyUsers"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maximum number of key users of Solution / Product in India"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etMaxKeyUsers"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target Market (Maximum value for sale)"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etTargetMarket"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idea Description"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/etIdeasDesc"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expected Support From STBI"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/checkRow1">
+
+
+                <CheckBox
+                    android:id="@+id/checkOfficeSpace"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Office Space"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="left"
+                    />
+
+                <CheckBox
+                    android:id="@+id/checkParking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parking Space"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="right"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/checkRow2">
+
+
+                <CheckBox
+                    android:id="@+id/checkMeeting"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Meeting Room Facilities"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="left"
+                    />
+
+                <CheckBox
+                    android:id="@+id/checkMentor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mentoring Assistance"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="right"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/checkRow3">
+
+
+                <CheckBox
+                    android:id="@+id/checkProtection"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Legal Protection"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="left"
+                    />
+
+                <CheckBox
+                    android:id="@+id/checkPrototype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rapid Prototype Support"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="right"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/checkRow4">
+
+
+                <CheckBox
+                    android:id="@+id/checkDesign"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Product Design Support"
+                    android:textSize="8pt"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="left"
+                    />
+
+                <CheckBox
+                    android:id="@+id/checkElectronicSupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Electronic Product Designing Support"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="right"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/checkRow5">
+
+
+                <CheckBox
+                    android:id="@+id/checkFinance"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Financial Support"
+                    android:textSize="8pt"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="left"
+                    />
+
+                                <CheckBox
+                                    android:id="@+id/checkOther"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Other"
+                                    android:textSize="8pt"
+                                    android:layout_margin="5dp"
+                                    android:layout_gravity="right"
+                                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estimated Office Space Required (Sq.ft)"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etOfficeSpace"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date (DD/MM/YYYY)"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etDate"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_submit"
+                    android:text="Submit"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_close"
+                    android:text="Close"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_margin="2dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

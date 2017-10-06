@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ErgoptixApp</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="facebook_app_id">1501104876606656</string>
+</resources>

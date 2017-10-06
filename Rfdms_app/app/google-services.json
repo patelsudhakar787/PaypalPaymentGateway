@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "733763949706",
+    "firebase_url": "https://rfdms-4ea2a.firebaseio.com",
+    "project_id": "rfdms-4ea2a",
+    "storage_bucket": "rfdms-4ea2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733763949706:android:4e92e71b1ca9c55a",
+        "android_client_info": {
+          "package_name": "com.example.sudhakar.rfdms_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733763949706-s882n7mm07aau5gp2e3msbcgu43mmldb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYkxXNEcsN-9-Qn-vDGA__RozTj4SquqU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

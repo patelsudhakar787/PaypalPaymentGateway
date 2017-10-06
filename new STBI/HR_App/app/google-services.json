@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "855992788698",
+    "project_id": "hrapp-f5184"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855992788698:android:edc16d8c63d3ce5d",
+        "android_client_info": {
+          "package_name": "com.example.rlard008.hr_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855992788698-l68cl4ll31dmvjp6ku24vch1d0jtl9f4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rlard008.hr_app",
+            "certificate_hash": "40842aab83f40bfbbfd4ee88377bce9cc9a0ca88"
+          }
+        },
+        {
+          "client_id": "855992788698-rsvhc9tiufg74o9jad05qqahcm6dsvhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6w7jsvW1n_dd9QP7IMCVPfAc6ObpejUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

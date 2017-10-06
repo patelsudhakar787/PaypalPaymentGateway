@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prasanna.rlard008.ergoptixapp.CalcEyeDistanceActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/pupil1"
+        android:id="@+id/imageViewPupil"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="83dp"
+            android:text="Enter left pupil distance (D1) in mm"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter left pupil distance (D1)"
+            android:textSize="8pt"
+            android:id="@+id/editTextLeftPupil"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="83dp"
+            android:text="Enter right pupil distance (D2) in mm"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter right pupil distance (D2)"
+            android:textSize="8pt"
+            android:id="@+id/editTextRightPupil"
+            android:layout_marginTop="15dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Enter height in mm"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter height"
+            android:textSize="8pt"
+            android:id="@+id/editTextHeight"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextPupil"
+        android:text="Next"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>

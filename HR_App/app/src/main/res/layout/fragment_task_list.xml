@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rlard.hr.rlard008.hr_app.Fragments.TaskListFragment"
+    android:id="@+id/relative"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#FFFFFF">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/listviewtask"/>
+
+</LinearLayout>

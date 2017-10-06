@@ -1,0 +1,203 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.JoinAsInvestor.IdeaDetails_InvestorFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idea Details"
+                android:textSize="19dp"
+                android:layout_margin="10dp"
+                android:textColor="#f2b009"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title of your Idea / Inovation / Product / Solution"
+                android:textSize="19dp"
+                android:layout_margin="10dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorIdeasTitle"
+                android:background="#e1e1de"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter TEN keywords closely related to your idea"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorTenkeywords"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who are the key users of your Product / Solution"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorKeyUsers"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maximum number of key users of Solution / Product in India"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorMaxKeyUsers"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target Market (Maximum value for sale)"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorTargetMarket"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idea Description"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/tvInvestorIdeasDesc"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date (DD/MM/YYYY)"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorDate"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#0d0d0d"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvInvestorStatus"
+                android:textSize="17dp"
+                android:layout_margin="5dp"
+                android:background="#e1e1de"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/investor_btn_next"
+                    android:text="Next"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/investor_btn_close"
+                    android:text="Close"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/buttonstyle"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

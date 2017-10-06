@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prasanna.rlard008.ergoptixapp.SubmitTTLRequestActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="3dp">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/vibe_logo"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Name"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter full name"
+            android:textSize="8pt"
+            android:id="@+id/editTextName"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Email"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:textSize="8pt"
+            android:id="@+id/editTextEmail"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Phone"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone"
+            android:textSize="8pt"
+            android:id="@+id/editTextPhone"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Gender"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"
+            android:layout_marginTop="10dp"/>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroup"
+            android:layout_marginTop="10dp">
+
+            <RadioButton android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                />
+
+            <RadioButton android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Clinic Address"
+            android:background="#33b5e5"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            style="?android:textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Clinic Address"
+            android:textSize="8pt"
+            android:id="@+id/editTextaddress"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:text="Submit"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+</LinearLayout>

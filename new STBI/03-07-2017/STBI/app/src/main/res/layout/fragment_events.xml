@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.rlard.rlard008.stbi.Fragments.EventsFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:id="@+id/event_listview"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

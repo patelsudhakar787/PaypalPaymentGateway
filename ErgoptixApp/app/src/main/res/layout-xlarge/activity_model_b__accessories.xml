@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prasanna.rlard008.ergoptixapp.ModelB_Accessories"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/vibe_logo"
+        />
+
+
+    <CheckBox
+        android:id="@+id/checkA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED Lamp (Color corrected, Lens+Fiber Optic Module with Intensity Controller)"
+        android:textSize="8pt"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Kit (Beam Splitter + Camera Adapter)"
+        android:textSize="8pt"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"/>
+
+
+    <CheckBox android:id="@+id/checkC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stand Alone Frame (Chasis+Fixtures)"
+        android:textSize="8pt"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"/>
+
+
+    <CheckBox android:id="@+id/checkD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teaching Aid (Teaching scope + 45 degree adaptor)"
+        android:textSize="8pt"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"/>
+
+    <CheckBox android:id="@+id/checkE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Cloud Module (Wifi SD card + Footpedal trigger + Setup and training)"
+        android:textSize="8pt"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextAccessories_B"
+        android:text="Next"
+        style="?android:textAppearanceMedium"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>

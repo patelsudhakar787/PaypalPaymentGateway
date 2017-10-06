@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlard.rlard008.stbi.Fragments.InstituteSIG.InstituteMyProfileMainFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/textview_SIG_Profile"
+        android:text="Basic Profile"
+
+        android:textSize="10pt"
+        android:layout_marginLeft="20dp"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/textview_SIG_Info"
+        android:text="Add Information"
+        android:layout_marginLeft="20dp"
+        android:textSize="10pt"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:id="@+id/textview_SIG_Dept"
+        android:text="Department"
+        android:pointerIcon="crosshair"
+        android:layout_marginLeft="20dp"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_SIG_Milestone"
+        android:text="Department Milestone/ Achievement/ Success Story"
+        android:pointerIcon="crosshair"
+        android:layout_marginLeft="20dp"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

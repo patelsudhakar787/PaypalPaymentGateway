@@ -1,0 +1,195 @@
+.containers{
+	padding: 20px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.fload_right{
+	float: right;
+}
+.float_left{
+	float: left;
+}
+.icon-notification{
+	padding-left: 22px;
+	padding-top: 3px;
+}
+.icon-notifications{
+	padding-left: 3px;
+}
+.icon-notificationd{
+	padding-left: 30px;
+}
+.replay-user{
+	padding-left: 100px;
+}
+.font{
+	 font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+}
+.top{
+	padding-top: 120px;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+    color: #000000;
+}
+.panels{
+	border-top-color: white;
+	width: 100%;
+}
+.card{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+.text-replay{
+	width: 900px;
+	height: 50px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+.all-padding{
+	padding: 10px;
+}
+.modal-header{
+	background-color: #ec971f;
+}
+.font-color{
+	padding-top: 6px;
+}
+/*------------------------------------------------Navbar------------------------------------*/
+nav{
+	background-color: #ffffff;
+}
+.navs{
+	background-color: #ffffff;
+}
+.navbar{
+	height: 100px;
+}
+.navbar-nav>li>a {
+	top: 18px;
+	font-size: 16px;
+	color:black;
+}
+.navbar-brand{
+	top: 18px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #fbfbfb;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.fa-icons{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.icon-fonts{
+	font-size: 18px;
+}
+.dropdown-menus-user{
+	top: 100px;
+	width: 250px;
+	margin-right: 16px;
+}
+.dropdown-menus-user-notification{
+	top: 90px;
+	width: 350px;
+}
+.notification{
+	top:10px;
+}
+img.avatar {
+    width: 50%;
+    border-radius: 50%;
+}
+.user-headers{
+	padding: 5px;
+}
+li > a > .label {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: orange;
+}
+li > a > .badges {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: orange;
+}
+.unique {
+	position: absolute;
+    top: -20px;
+    right: 14px;
+    text-align: right;
+    font-size: 16px;
+    padding: 2px 3px;
+    line-height: .9;
+    background-color: white;
+    color: black;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 10px; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 300px;
+}
+.text-center{
+	float: right;
+}
+.navbar-conteiner{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+/*--------------------------end navbar--------------------------------------*/
+
+.card{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+/*-----------------------------event----------------------------*/
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+body{
+  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif; 
+  font-size: 18px;
+}
+

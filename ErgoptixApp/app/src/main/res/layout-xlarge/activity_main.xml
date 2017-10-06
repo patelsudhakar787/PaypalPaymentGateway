@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerClient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_margin="2dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp">
+
+                <Button
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/personalTrial"
+                    android:text="Personal"
+                    style="?android:textAppearanceMedium"
+                    android:background="@drawable/buttonstyle"
+                    android:layout_margin="1dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/workshopSupport"
+                    android:text="Support"
+                    style="?android:textAppearanceMedium"
+                    android:background="@drawable/buttonstyle"
+                    android:layout_margin="1dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8pt"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/welcome1"
+                android:layout_marginTop="30dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TTL"
+                android:background="@drawable/buttonstyle"
+                android:text="Submit details for customized Loupe/TTL"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                style="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="8pt"
+                android:layout_marginTop="30dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/welcome2"
+                android:layout_marginTop="30dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/microscope"
+                android:background="@drawable/buttonstyle"
+                android:text="Choose Your Microscope"
+                android:textStyle="bold"
+
+                style="?android:textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="8pt"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!-- <include layout="@layout/navigation_header"/>  -->
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/vibe_logo"
+            android:background="@color/white"/>
+
+        <ListView
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/left_drawer_Client"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:layout_gravity="start"
+            android:background="@color/white"
+            android:textSize="10pt"
+            />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
